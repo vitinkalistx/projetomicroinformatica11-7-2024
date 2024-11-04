@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Holy Health</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/joao_victor_florentino_souza.css">
+</head>
+
+<body>
+    <nav class="navbar py-3 navbar-expand-lg nav-bg">
+        <div class="container-fluid">
+            <img src="../img/logo.jpeg" alt="logo" class="logo">
+            <a class="navbar-brand" href="#"></a>
+            <h1>Holy Health</h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pe-5">
+                    <li class="nav-item">
+                        <a class="nav-link nav-font p-3" aria-current="page" href="index.html">Início</a>
+                    </li>
+                    <li class="nav-item"></li>
+                    <a class="nav-link nav-font p-3" aria-current="page" href="serviços.html">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                    <li class="nav-item">
+                        <a class="nav-link p-3 nav-font" aria aria-current="page" href="cadastro.html">Cadastro</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-font p-3" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Social
+                        </a>
+                        <ul class="dropdown-menu links">
+                            <li><a class="dropdown-item" href="https://www.instagram.com/">Instagram</a></li>
+                            <li><a class="dropdown-item" href="https://x.com/">X/Twitter</a></li>
+                            <li><a class="dropdown-item" href="https://www.facebook.com/?locale=pt_BR">Facebook</a></li>
+                        </ul>
+                    </li>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Imagem do Cadastro Responsiva -->
+    <header class="header-cadastro col-12 text-center mb-4">
+        <div class="header-cadastro div">
+            <h1 class="display-3">Cadastro</h1>
+        </div>
+    </header>
+
+    <main class="container my-5 cadastro-font">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <form>
+                    <h2 class="mb-4">Informações Pessoais</h2>
+                    <div class="mb-3">
+                        <label for="nome" class="form-label">Nome</label>
+                        <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">E-mail</label>
+                        <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail">
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="senha" class="form-label">Senha</label>
+                            <input type="password" class="form-control" id="senha" placeholder="Digite sua senha">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="confirmarSenha" class="form-label">Confirme a Senha</label>
+                            <input type="password" class="form-control" id="confirmarSenha" placeholder="Confirme sua senha">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 mb-3">
+                            <label for="idade" class="form-label">Idade</label>
+                            <input type="number" class="form-control" id="idade" placeholder="Digite sua idade">
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label for="nascimento" class="form-label">Data de Nascimento</label>
+                            <input type="date" class="form-control" id="nascimento">
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label for="estado" class="form-label">Estado</label>
+                            <select id="estado" class="form-select">
+                                <option>Selecione um estado</option>
+                                <option value="RJ">Rio de Janeiro</option>
+                                <option value="SP">São Paulo</option>
+                                <option value="RS">Rio Grande do Sul</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-danger w-100 mt-4">Cadastrar</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer text-center text-white mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 mb-3 mb-md-0 texto-com-borda">
+                    <h5>&copy; 2024 Holy Health Inc. Todos os direitos reservados. Holy Health Brasil Ltda.</h5>
+                    <p>Av. Pres. Juscelino Kubitschek, 1909 - Vila Olímpia, 04543-907</p>
+                    <p>Telefone: (12) 99113-6766</p>
+                </div>
+                <div class="col-md-6">
+                    <h5 class="texto-com-borda">Siga nossas redes sociais:</h5>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/" title="Instagram">IG</a>
+                        <a href="https://x.com/" title="Twitter">X</a>
+                        <a href="https://www.facebook.com/?locale=pt_BR" title="Facebook">FB</a>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-md-0">
+                    <h6 class="texto-com-borda">Empresas Parceiras:</h6>
+                    <p class="texto-com-borda">· Eco Travel · WildFit · Pod(e) Cultura ·</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+</body>
+</html>
